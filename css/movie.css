@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+.container{
+    width:100%;
+}
+
+.logo,.header,.section,.section2{
+width:80%;
+}
+.section{
+    background-color: yellow;
+    margin:0 auto;
+    width:80%;
+    height:50px;
+}
+.section>.menu  li{
+    float:left;
+    text-align:center;
+d
+}
+.section2{
+    display: flex;
+    margin:0 auto;
+    height:590px;
+
+}
+.article{
+    background-color:green;
+    flex:1;    
+}
+.aside{
+    background-color:blue;
+    flex:1;
+    
+}
